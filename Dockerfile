@@ -1,5 +1,5 @@
-FROM ubuntu:16.04
-MAINTAINER Neha Bhardwaj
+FROM ubuntu:latest
+MAINTAINER Rik Blog
 
 # Install cron
 RUN apt-get update && apt-get install -y cron
