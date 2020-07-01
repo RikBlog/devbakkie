@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Rik Blog.
+MAINTAINER Rik Blog
 
 # Install cron
 RUN apt-get update && apt-get install -y cron
