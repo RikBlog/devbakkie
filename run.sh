@@ -1,3 +1,3 @@
 #!/bin/bash
 timestamp=`date +%Y/%m/%d-%H:%M:%S`
-echo "System path is $PATH at $timestamp"
+echo "DebBakkie path is $PATH at $timestamp"

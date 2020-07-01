@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Start the run once job.
-echo "Docker container has been started"
+echo "The DevBakkie is UP!"
 
 declare -p | grep -Ev 'BASHOPTS|BASH_VERSINFO|EUID|PPID|SHELLOPTS|UID' > /container.env
 
